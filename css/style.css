@@ -1,0 +1,53 @@
+.header {
+  padding: 25px;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__content__logo {
+  text-decoration: none;
+}
+.header__content__logo-link {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.header__content__logo__btns {
+  display: flex;
+  gap: 40px;
+}
+.header__content__logo-login {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  background: transparent;
+}
+.header__content__logo-signup {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  border: transparent;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 450px) {
+  .header__content__logo {
+    display: none;
+  }
+  .header__content {
+    justify-content: center;
+  }
+}
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */

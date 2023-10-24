@@ -1,0 +1,47 @@
+.header {
+  padding: 25px;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+      text-decoration: none;
+      &-link {
+        color: black;
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      &__btns {
+        display: flex;
+        gap: 40px;
+      }
+      &-login {
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        border: none;
+        background: transparent;
+      }
+      &-signup {
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        border: transparent;
+        border: 2px solid black;
+        border-radius: 40px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  .header__content__logo {
+    display: none;
+  }
+  .header__content {
+    justify-content: center;
+  }
+}
